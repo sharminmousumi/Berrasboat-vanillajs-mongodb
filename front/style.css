@@ -1,0 +1,59 @@
+body{
+    background-color: #2F4F4F;
+}
+.heading{
+    text-align: center;
+    margin-top: -10px;
+}
+.addNewBoat-container{
+    text-align: center;
+    border: 10px solid #B8860B;
+    background-color: #B8860B;
+    margin-top: -10px;
+
+}
+#addBoat{
+    padding:5px;
+    width: 100px;
+    background-color:green;
+    margin-top: 2px;
+}
+.style{
+    background-color:honeydew;
+    padding: 5px;
+}
+#getbutton{
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: khaki;
+}
+.listbtn{
+    text-align: center;
+    margin-top: -10px;
+    
+}
+.search-container{
+    border: 10px solid #B8860B;
+    background-color: #B8860B;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+#inputSearch{
+    padding: 5px;
+    background-color:honeydew;
+}
+#categories{
+    padding: 5px;
+    background-color:honeydew;
+}
+#btn-search{
+    padding: 5px;
+    background-color:honeydew;
+}
+.container{
+    text-align: center;
+    
+    
+}

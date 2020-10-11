@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='sv' dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>GÖteborgaren Bera</title>
+      
+      <script src="script.js" charset="utf-8"></script>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <main>
+           <header>
+               <div class="heading">
+               <h1>Berrasboat Webshop</h1>
+            </div>
+               
+               <div class="addNewBoat-container">
+				<form>
+					<input type="text" class="style" placeholder="ModelName" id="addModelName"> 
+                    <input type="number" class="style" placeholder="Model_Year" id="addYear">
+                    <input type="number"  class="style" placeholder="production_Year" id="addproductionYear">
+					<input type="number"  class="style" placeholder="Price" id="addPrice">
+					<label>Sail: <input type="checkbox"  class="style" id="is_Sail"></label> 
+                   <label>Motor: <input type="checkbox" class="style" id="has_Motor"></label>  
+				</form>
+				<button id="addBoat">Add</button>
+				
+            </div>
+            
+               <!-- ALLA BÅTAR -->
+		<div class="boats-container">
+            <div class="search-container">
+                <input type="text" placeholder="Find your boat here" id="inputSearch">
+                <label for="cars">Choose  category</label>
+                <select id="categories" name="categories">
+                    <option value="model">Model</option>
+                    <option value="maxprice">Maxprice</option>
+                    <option value="productionbefore">before</option>
+                    <option value="madeafter">after</option>
+                </select>
+                <button id="btn-search">Search</button>
+            </div>
+            <div class="listbtn">
+                <button id="getbutton">Boat List</button>
+             </div>
+               
+           </header>
+              
+              <div  class="container">
+				
+				
+			</div>
+          
+
+           
+       </main>
+    </body>
+</html>
